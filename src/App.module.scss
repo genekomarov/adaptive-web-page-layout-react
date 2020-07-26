@@ -1,0 +1,28 @@
+@import "~normalize.css";
+
+.root {
+  display: flex;
+
+  > * {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .sidePanel {
+    flex: 0 0 240px;
+
+  }
+
+  .mainArea {
+    flex: 0 1 auto;
+  }
+}
+
+.testSidePanel {
+  background: azure;
+}
+
+.testMainArea {
+  background: cornsilk;
+}
